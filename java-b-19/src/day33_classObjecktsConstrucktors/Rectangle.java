@@ -10,6 +10,7 @@ public class Rectangle {
 		
 		public void getArea() {
 			System.out.println(length * width);
+			
 		}
 	}
 

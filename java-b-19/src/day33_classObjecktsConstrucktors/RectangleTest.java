@@ -17,6 +17,7 @@ public class RectangleTest {
 		
 		System.out.println(r1.length); 
 		System.out.println(r2.width);
+	
 
 	}
 

@@ -7,11 +7,12 @@ public class CarTest {
 		Car c1 = new Car(); //it is calling the constructor
 							//which constrcutor u want me do execute?
 							//i want to you execute, constructor which does not have any arguments
-			
+			//System.out.println(c1.make);// c1 ohjeckt of variable gets
 		Car c2 = new Car("AMG", "Mercedes", 2007, 65000, "White");
 		Car c3 = new Car("Corolla", "Toyota", 2015, 32000, "Yellow");
 		Car c4 = new Car("Altima", "Nisssan", 2014, 41000, "Black");
 		
+		System.out.println(c1.toString());
 	}
 
 }
