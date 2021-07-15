@@ -58,7 +58,8 @@ public class Credentials {
 }
 
 /*
- * String expectedUserName = "Cybertek"; String expectedPassWord =
+ * String expectedUserName = "Cybertek";
+ *  String expectedPassWord =
  * "Cybertek123";
  * 
  * 1. Ask user to enter Cybertek username

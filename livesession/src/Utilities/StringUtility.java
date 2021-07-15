@@ -56,5 +56,19 @@ public class StringUtility {
 				}
 				return result;
 	}
+			public static int frequency(String sentence,String word) {
+				sentence= sentence.toLowerCase();
+				word = word.toLowerCase();
+				
+			
+				int count = 0;
+				
+				while(sentence.contains(word)) {
+					sentence = sentence.replaceFirst(word, "");
+					count++;
+				
+			}
+				return count;
 
+}
 }

@@ -4,7 +4,7 @@ public class Person {
 	
 	String name;
 	int age;
-	char gender;
+	String gender;
 	public void eat(String food) {
 		System.out.println(name + "is eating " + food);
 		

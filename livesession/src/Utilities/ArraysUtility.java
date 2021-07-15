@@ -159,7 +159,7 @@ public class ArraysUtility {
 				arr3[i++] = each;
 			}
 			return arr3;
-			
+		}
 			//adds the element into the array
 			public static  int[] addElement(int[] arr, int element) {
 				int[] newArray = new int[arr.length + 1]; // {1,2,3,4}

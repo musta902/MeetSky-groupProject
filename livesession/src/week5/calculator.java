@@ -28,8 +28,6 @@ public class calculator {
 					System.out.println("Invalid Entry, pelase re-enter");
 					 a = scan.nextLine().toLowerCase();
 				}
-				
-				
 				if(a.equals("no")) {
 					System.out.println("Test Completed");
 					break;

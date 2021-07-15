@@ -1,6 +1,6 @@
 package week5;
 
-public class salary {
+public class Salary {
 
 	public double rate;
 	public int weeklyHour;
@@ -12,24 +12,24 @@ public class salary {
 		taxRate = tax;
 	}  // to be able to initialize all instance variables of salary object
 	
-	public double Salary() {  // salary before tax
+	public double salary() {  // salary before tax
 		return rate * weeklyHour * 52;  // annual salary
 	}
 	
 	public double totalTax() {
-		return Salary() * taxRate;  // total Tax
+		return salary() * taxRate;  // total Tax
 	}
 	
 	public double salaryAfterTax() { // returns the salary after tax
-		return Salary() - totalTax();
+		return salary() - totalTax();
 	}
 
 	
 	public String toString() {  // allows us to print salary object
-		return "Salary {rate= $" + rate 
+		return "salary {rate= $" + rate 
 				+ ", weeklyHour=" + weeklyHour 
 				+ ", taxRate=" + taxRate  
-				+", Salary=$"+ Salary()
+				+", Salary=$"+ salary()
 				+", total tax=$"+ totalTax()
 				+", salary after tax=$"+salaryAfterTax()+"}";
 	}

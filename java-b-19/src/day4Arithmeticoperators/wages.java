@@ -1,6 +1,6 @@
 package day4Arithmeticoperators;
 
-import com.sun.jndi.url.dns.dnsURLContext;
+
 
 public class wages {
 

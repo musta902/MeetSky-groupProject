@@ -1,6 +1,8 @@
 package week5;
 
-public class Pizza {public String size;
+public class Pizza {
+
+public String size;
 public int cheeseTopping;
 public int pepperoniTopping;
 
